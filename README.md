@@ -9,7 +9,7 @@ Produces output into an output file which determines which files go into which n
 **Usage**: ProportionalFileDistribution.py -f filename.txt -n nodesname.txt -o outputfile.txt(optional)
 
 **Input Files**
-files.txt:
+- files.txt:
 ```
 # filename size
 tom.dat 1024
@@ -17,17 +17,17 @@ jerry.dat 16553
 tweety.out 12345
 elmerfudd.txt 987654321
 ```
-nodes.txt:
+- nodes.txt:
 ```
 # node-name available-space
 node1 65536
 node2 32768
 ```
 
-output.txt:
+- output.txt:
 ```
 tom.dat node1
 tweety.out node1
 jerry.dat node2
-```
 elmerfudd.txt NULL
+```
